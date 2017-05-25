@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igm5007/commworkshop2017.git"
+    "url": "git+https://github.com/igm5007/livemusicserver.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/igm5007/commworkshop2017/issues"
+    "url": "https://github.com/igm5007/livemusicserver/issues"
   },
-  "homepage": "https://github.com/igm5007/commworkshop2017#readme",
+  "homepage": "https://github.com/igm5007/livemusicserver#readme",
   "devDependencies": {
     "express": "^4.15.3",
     "pm2": "^2.4.6"
