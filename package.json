@@ -1,0 +1,29 @@
+{
+  "name": "dataviz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "authentication-request.js",
+  "scripts": {
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igm5007/commworkshop2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igm5007/commworkshop2017/issues"
+  },
+  "homepage": "https://github.com/igm5007/commworkshop2017#readme",
+  "devDependencies": {
+    "express": "^4.15.3",
+    "pm2": "^2.4.6"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
