@@ -7,7 +7,7 @@ module.exports = {
     production: {
       user: 'ubuntu',
       host: 'ec2-52-27-120-28.us-west-2.compute.amazonaws.com',
-      key: '~/.ssh/ian.pem',
+      key: '~/.ssh/id_rsa.pub',
       ref: 'origin/master',
       repo: 'git@github.com:igm5007/livemusicserver.git',
       path: '/home/ubuntu/server',
